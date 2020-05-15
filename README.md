@@ -8,8 +8,9 @@ Project to practice making installers. There are two 'hello world' programs,
 
 #### Installation
 ```
-> pip install pygame
-> pip install pyinstaller
+pip install pygame
+pip install pyinstaller
+pip install flask
 ```
 #### To Run Them
 For the console program,
