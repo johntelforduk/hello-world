@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Homepage.
 @app.route("/", methods=['GET'])
 def home():
-    return 'Hell from flask.'
+    return 'Hello from flask...'
 
 
 if __name__ == "__main__":
