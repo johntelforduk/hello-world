@@ -13,6 +13,4 @@ sudo systemctl restart nginx
 sudo yum -y install python3
 sudo pip3 install flask
 
-echo python3 ./hello-world/hello-flask.py
-
-
+python3 ./hello-world/hello-flask.py
