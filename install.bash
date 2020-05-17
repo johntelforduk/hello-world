@@ -14,7 +14,8 @@ sudo systemctl restart nginx
 
 sudo yum -y install python3
 sudo pip3 install flask
+sudo pip3 install gunicorn
 
-python3 ./hello-world/hello-flask.py
-
+cd hello-world
+gunicorn ./hello-world/hello-flask.py:app
 
