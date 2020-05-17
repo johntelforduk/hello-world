@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sudo yum -y update
 
 sudo yum -y install git
@@ -14,3 +16,5 @@ sudo yum -y install python3
 sudo pip3 install flask
 
 python3 ./hello-world/hello-flask.py
+
+
