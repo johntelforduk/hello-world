@@ -17,5 +17,5 @@ sudo pip3 install flask
 sudo pip3 install gunicorn
 
 cd hello-world
-gunicorn ./hello-world/hello-flask.py:app
+gunicorn hello-flask:app
 
