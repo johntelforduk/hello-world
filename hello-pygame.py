@@ -1,3 +1,4 @@
+# Hello world that exercises Pygame.
 
 import  pygame
 from random import randint
